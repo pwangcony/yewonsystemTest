@@ -11,6 +11,11 @@ permissions:
 
 jobs:
   build-and-deploy:
+    # 이 부분이 누락되어 에러가 났습니다.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
