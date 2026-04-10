@@ -154,7 +154,7 @@ function ServiceCard({ service, index }: { service: any; index: number }) {
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-24 bg-gray-900 snap-start snap-always min-h-screen flex flex-col justify-center overflow-hidden">
+    <section id="services" className="relative py-24 bg-gray-900 min-h-screen flex flex-col justify-center overflow-hidden">
       {/* Mesh Gradient Background */}
       <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-primary-600/30 blur-[120px]" />
