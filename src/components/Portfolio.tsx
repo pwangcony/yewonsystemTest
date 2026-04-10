@@ -51,7 +51,7 @@ export default function Portfolio() {
   );
 
   return (
-    <section id="portfolio" className="py-24 bg-gray-50 snap-start snap-always min-h-screen flex flex-col justify-center">
+    <section id="portfolio" className="py-24 bg-gray-50 min-h-screen flex flex-col justify-center">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
