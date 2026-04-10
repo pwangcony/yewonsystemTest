@@ -36,7 +36,7 @@ export default function BeforeAfter() {
   }, []);
 
   return (
-    <section id="before-after" className="py-24 bg-gray-900 text-white overflow-hidden snap-start snap-always min-h-screen flex flex-col justify-center">
+    <section id="before-after" className="py-24 bg-gray-900 text-white overflow-hidden min-h-screen flex flex-col justify-center">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-accent-400 font-semibold tracking-wider uppercase text-sm mb-3">시공 전후 비교</h2>
