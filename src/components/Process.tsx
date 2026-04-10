@@ -34,7 +34,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-24 bg-gray-900 text-white relative snap-start snap-always min-h-screen flex flex-col justify-center">
+    <section id="process" className="py-24 bg-gray-900 text-white relative min-h-screen flex flex-col justify-center">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-accent-400 font-semibold tracking-wider uppercase text-sm mb-3">작업 프로세스</h2>
