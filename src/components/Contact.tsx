@@ -14,7 +14,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="relative bg-white overflow-hidden snap-start snap-always min-h-screen flex flex-col justify-center">
+    <section id="contact" className="relative bg-white overflow-hidden min-h-screen flex flex-col justify-center">
       <div className="flex flex-col lg:flex-row min-h-[800px]">
         
         {/* Left: Form & Info */}
